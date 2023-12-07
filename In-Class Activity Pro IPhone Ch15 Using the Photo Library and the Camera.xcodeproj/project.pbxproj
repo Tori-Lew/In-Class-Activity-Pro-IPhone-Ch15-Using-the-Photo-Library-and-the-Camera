@@ -11,6 +11,7 @@
 		3F77F4562B2143D5000BC8C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77F4552B2143D5000BC8C2 /* ContentView.swift */; };
 		3F77F4582B2143D9000BC8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F77F4572B2143D9000BC8C2 /* Assets.xcassets */; };
 		3F77F45B2B2143D9000BC8C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F77F45A2B2143D9000BC8C2 /* Preview Assets.xcassets */; };
+		3F77F4632B2150AB000BC8C2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77F4622B2150AB000BC8C2 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		3F77F4552B2143D5000BC8C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F77F4572B2143D9000BC8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F77F45A2B2143D9000BC8C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F77F4612B214553000BC8C2 /* In-Class-Activity-Pro-IPhone-Ch15-Using-the-Photo-Library-and-the-Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "In-Class-Activity-Pro-IPhone-Ch15-Using-the-Photo-Library-and-the-Camera-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3F77F4622B2150AB000BC8C2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		3F77F4522B2143D5000BC8C2 /* In-Class Activity Pro IPhone Ch15 Using the Photo Library and the Camera */ = {
 			isa = PBXGroup;
 			children = (
+				3F77F4612B214553000BC8C2 /* In-Class-Activity-Pro-IPhone-Ch15-Using-the-Photo-Library-and-the-Camera-Info.plist */,
 				3F77F4532B2143D5000BC8C2 /* In_Class_Activity_Pro_IPhone_Ch15_Using_the_Photo_Library_and_the_CameraApp.swift */,
 				3F77F4552B2143D5000BC8C2 /* ContentView.swift */,
+				3F77F4622B2150AB000BC8C2 /* ImagePicker.swift */,
 				3F77F4572B2143D9000BC8C2 /* Assets.xcassets */,
 				3F77F4592B2143D9000BC8C2 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F77F4632B2150AB000BC8C2 /* ImagePicker.swift in Sources */,
 				3F77F4562B2143D5000BC8C2 /* ContentView.swift in Sources */,
 				3F77F4542B2143D5000BC8C2 /* In_Class_Activity_Pro_IPhone_Ch15_Using_the_Photo_Library_and_the_CameraApp.swift in Sources */,
 			);
@@ -274,6 +280,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"In-Class Activity Pro IPhone Ch15 Using the Photo Library and the Camera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "In-Class-Activity-Pro-IPhone-Ch15-Using-the-Photo-Library-and-the-Camera-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +309,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"In-Class Activity Pro IPhone Ch15 Using the Photo Library and the Camera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "In-Class-Activity-Pro-IPhone-Ch15-Using-the-Photo-Library-and-the-Camera-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
